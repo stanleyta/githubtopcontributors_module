@@ -1,6 +1,6 @@
 {
   "name": "githubtopcontributors_module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "node.js module to query the GitHub API and return the \"top 10\" contributors in json format",
   "main": "lib/mod.js",
   "scripts": {

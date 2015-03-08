@@ -20,7 +20,7 @@ describe('module', function(){
             var url = '/repos/stanleyta/githubtopcontributors/contributors';
             var token = 'abc';
             var username = 'sta';
-            mod(url, token, username).then(function (value){
+            mod.get(url, token, username).then(function (value){
                 console.log(JSON.stringify(value));
                 value.should.eql(mockObj.toString());
                 done();
@@ -38,7 +38,7 @@ describe('module', function(){
             var url = '/repos/sta/githubtopcontributors/contributors';
             var token = 'abc';
             var username = 'sta';
-            mod(url, token, username).then(function (value){
+            mod.get(url, token, username).then(function (value){
                 console.log(JSON.stringify(value));
                 value.should.eql("2");
                 done();
