@@ -24,7 +24,8 @@
   },
   "homepage": "https://github.com/stanleyta/githubtopcontributors_module",
   "dependencies": {
-    "express": "^4.12.2"
+    "express": "^4.12.2",
+    "promise": "^6.1.0"
   },
   "devDependencies": {
     "assert": "^1.3.0",
