@@ -1,5 +1,5 @@
 # githubtopcontributors_module
----
+![alt tag](https://travis-ci.org/stanleyta/githubtopcontributors_module.svg?branch=master)
 
 Module that queries the GitHub API and retrieves the "top 10" contributors in JSON format.
 
